@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    tools:context="com.yaun.beautyexpert.beautyexpert.CancelReservationActivity">
+    <include layout="@layout/layout_cancel_toolbar"/>
+    <TableLayout
+        android:id="@+id/tblId"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:textAlignment="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+            </TextView>
+
+            <TextView
+                android:text="Beautician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+            </TextView>
+
+            <TextView
+                android:text="Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+            </TextView>
+
+            <TextView
+                android:text="Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
